@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to Motor Maven — the community site is live." />
+  <title>Welcome to Motor Maven! — Motor Maven</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" />
+  <meta name="theme-color" content="#0d0d0d" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <style>
+    .post-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 2rem;
+    }
+    .post-back:hover { text-decoration: underline; }
+
+    .post-header { margin-bottom: 2rem; }
+    .post-header .blog-meta { margin-bottom: 0.75rem; }
+    .post-header h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    .post-img {
+      width: 100%;
+      height: 320px;
+      background: #1a1a1a;
+      border-radius: var(--radius);
+      margin-bottom: 2.5rem;
+    }
+
+    .post-body {
+      max-width: 720px;
+      color: var(--text);
+      line-height: 1.8;
+      font-size: 1.05rem;
+    }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      margin: 2rem 0 0.75rem;
+      color: var(--text);
+    }
+    .post-body ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .post-body li { margin-bottom: 0.4rem; }
+  </style>
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Motor Maven" />
+  <meta property="og:title" content="Welcome to Motor Maven! — Motor Maven" />
+  <meta property="og:description" content="The Motor Maven community site is live. Find blog posts, a games list, and a link to our Discord. More features coming soon." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Welcome to Motor Maven! — Motor Maven" />
+  <meta name="twitter:description" content="The Motor Maven community site is live. Find blog posts, a games list, and a link to our Discord. More features coming soon." />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header>
+    <nav aria-label="Main navigation">
+      <a href="../../index.html" class="nav-logo" aria-label="Motor Maven — home">MOTOR<span>MAVEN</span></a>
+      <ul class="nav-links" role="list">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../games.html">Games</a></li>
+        <li><a href="../blogs.html" class="active" aria-current="page">Blogs</a></li>
+        <li><a href="../roles.html">Roles</a></li>
+        <li><a href="../rules.html">Rules</a></li>
+        <!-- <li><a href="../staff.html">Staff</a></li> -->
+      </ul>
+      <a href="https://discord.gg/wgUbp8NS54" target="_blank" rel="noopener noreferrer" class="nav-discord btn" aria-label="Join Motor Maven on Discord (opens in new tab)">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+          <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.03.056a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/>
+        </svg>
+        Discord
+      </a>
+      <button class="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main" aria-label="Main content">
+    <section style="max-width: 800px;">
+
+      <a href="../blogs.html" class="post-back">← Back to Blogs</a>
+
+      <div class="post-header">
+        <p class="blog-meta"><time datetime="2026-04-27">April 27, 2026</time> &bull; Community</p>
+        <p class="card-tag">Welcome</p>
+        <h1>Welcome to Motor Maven!</h1>
+      </div>
+
+      <div class="post-img" role="img" aria-label="Welcome post image placeholder"></div>
+
+      <div class="post-body">
+        <p>The Motor Maven community site is officially live! After weeks of planning and building, we finally have a home base for everything Motor Maven.</p>
+
+        <p>This site is built by the community, for the community. Whether you're a seasoned MotorTown racer or just getting started, this is your hub for news, updates, and everything happening in our world.</p>
+
+        <h2>What's Here</h2>
+        <ul>
+          <li><strong>Blogs</strong> — Community posts, news, and event announcements right here.</li>
+          <li><strong>Games</strong> — A list of the games our community plays together.</li>
+          <li><strong>Discord</strong> — Jump straight into the conversation with our community.</li>
+        </ul>
+
+        <h2>What's Coming</h2>
+        <p>We're just getting started. More features, more posts, and more community content are on the way. Stay tuned and keep your eyes on the Discord for announcements.</p>
+
+        <p>Thanks for being part of Motor Maven. See you on the road.</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>Motor Maven built by the community for the community</p>
+    <p>&copy; 2026 DRHCreates. All rights reserved.</p>
+  </footer>
+
+  <script src="../../js/smooth-scroll.js" defer></script>
+  <script src="../../js/nav.js" defer></script>
+</body>
+</html>
